@@ -27,7 +27,7 @@ font-family: 'Roboto', sans-serif;
 
 /* Header */
 header {
-    background-color: beige;
+    background-color: #F4D793;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -59,14 +59,24 @@ h1 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+/* Navbar styles with dropdown toggle */
+nav {
+   position: absolute; 
+   background-color:  #F4D793;
+   width: 100%;
+   left: 0;
+   padding: 0 1rem;
+   box-shadow: 0 2px 2px #D6CFC7;
+}
 /* Main */
 main {
-    background-color: white;
+    background-color: #FFF6DA;
     /* Make main element tak up any surplus space to push footer down */
     flex: 1 0 auto;
 }
 
 /* Footer */
 footer {
-    background-color: peachpuff;
+    background-color: #FFF6DA ;
 }
