@@ -26,13 +26,18 @@ font-family: 'Roboto', sans-serif;
 }
 
 /* Header */
+
+
+
 header {
     background-color: #F4D793;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
-    width: 100%
-       
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -68,8 +73,22 @@ nav {
    left: 0;
    padding: 0 1rem;
    box-shadow: 0 2px 2px #D6CFC7;
+   display: none;
+   top: 100%;
 
 }
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;}
+
+#nav-toggle {
+    display: none;
+} 
+.nav-toggle-label {
+    font-size: 2rem;
+}  
+
 /* Main */
 main {
     background-color: #FFF6DA;
